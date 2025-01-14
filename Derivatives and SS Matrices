@@ -92,4 +92,4 @@ Q_lat=5000*eye(5);
 R_lat=0.825;
 [K_lat, S_lat, E_lat]= lqr(A_lat, B_lat, Q_lat, R_lat);
 N_bar_lat=K_lat(3);
-% BURAYA TRACKING KODU EKLENEBİLİRİ
+% İhtiyaç durumunda BURAYA TRACKING KODU EKLENEBİLİR
